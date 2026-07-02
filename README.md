@@ -1,18 +1,18 @@
-# 🗄️ SQL E-Commerce Business Intelligence Analysis
+# SQL E-Commerce Business Intelligence Analysis
 
-## 🎯 Project Overview
+## Project Overview
 This project demonstrates advanced SQL querying and relational database design capabilities. To showcase real-world data engineering practices, the raw e-commerce retail sales dataset was normalized into a structured star-schema consisting of two transactional and demographic tables (`customers` and `sales`). 
 
 The analysis progresses from basic metrics to advanced business intelligence extraction, focusing on customer segmentation, seasonal performance, and demographic purchasing power.
 
-## 🛠️ Tech Stack & Skills Demonstrated
+## Tech Stack & Skills Demonstrated
 * **SQL Dialect:** Compatible with PostgreSQL, MySQL, SQLite, and BigQuery
 * **Database Modeling:** Relational design, Primary/Foreign Key constraints, Data normalization
 * **Analytical SQL:** Multi-table `JOIN` operations, conditional `CASE WHEN` logic, data aggregations (`GROUP BY`, `HAVING`), and **Common Table Expressions (CTEs)**
 
 ---
 
-## 📐 Database Architecture & Schema
+## Database Architecture & Schema
 The data model has been optimized for analytical queries by separating transactional facts from user dimensions:
 
 ### 1. `customers` (Dimension Table)
@@ -31,7 +31,7 @@ The data model has been optimized for analytical queries by separating transacti
 
 ---
 
-## 📊 Business Questions Answered & Code Highlights
+## Business Questions Answered & Code Highlights
 
 ### 1. Core Product Track Performance
 * **Objective:** Identify which product categories drive the highest transaction volumes and total profit margins.
